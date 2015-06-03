@@ -1,0 +1,96 @@
+body {
+	margin: 0;
+}
+li {
+	cursor: pointer;
+}
+li:hover {
+	background: #ebeaeb;
+}
+section {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(background.png);
+}
+#logo {
+	position: relative;
+	left: 20%;
+	width: 60%;
+	height: 40%;
+} 
+#box1 {
+	width: 450px;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+	font-size: 20px;
+}
+#button1 {
+	text-decoration: none;
+	display: block;
+	width: 130px;
+	background: #6CA6B6;
+	color: #5F6F7B;
+	font-size: 30px;
+	border: 4px solid #F2EADD;
+	border-radius: 10px;
+	margin: 10px auto;
+	text-align: center;
+}
+#box2 {
+	margin: 20px;
+	width: 250px;
+	height: 25px;
+}
+#button2 {
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	background: #6CA6B6;
+	color: #5F6F7B;
+	font-size: 20px;
+	border: 4px solid #F2EADD;
+	border-radius: 10px;
+	text-align: center;
+}
+#watch-list {
+	float: right;
+	margin: 20px;
+	width: 130px;
+	height: 25px;
+	background: #FE5AA0;
+	border: 4px solid #F2EADD;
+	border-radius: 10px;
+	text-align: center;
+	color: #5F6F7B;
+	font-size: 20px;
+}
+#icon {
+	display: block;
+	width: 200px;
+	margin: 50px auto;
+	height: 200px;
+	background: url(icon.gif);
+	background-size: 100%;
+}
+#description {
+	margin: 20px auto;
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+#list {
+	display: none;
+	position: relative;
+	top: 5%;
+	left: 15%;
+	width: 70%;
+	height: 70%;
+	background: #F2EADD;
+	border: 10px solid #5F6F7B;
+	padding: 10px;
+	color: #5F6F7B;
+	font-size: 20px;
+}

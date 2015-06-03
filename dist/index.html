@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IMDB App</title>
+	<meta charset='utf8'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section id='search-page'>
+		<div id='icon'></div>
+		<div id="logo">
+			<form class='search-form' id='main-form'>
+				<input type="text" class="search-box" id="box1">
+				<a href="#home" class="search-button" id="button1">Search</a>
+			</form>
+			<div id="description">We have many great films you should seem new every time you see it!</div>
+		</div>
+	</section>
+	<section id='result-page'>
+		<div id="search-bar">
+			<form class='search-form'>
+				<input type="text" class="search-box" id="box2">
+				<a href="#results" class="search-button" id="button2">Search</a>
+			</form>
+		</div>
+		<div id="list">
+			<ul></ul>
+		</div>
+	</section>
+
+	<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+	<script type="text/javascript" src='bower_components/backbone/backbone-min.js'></script>
+	<script type="text/javascript" src='bower_components/jquery/dist/jquery.min.js'></script>
+	<script type="text/javascript" src='scripts/main.js'></script>
+</body>
+</html>
