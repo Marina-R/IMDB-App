@@ -55,16 +55,10 @@ section {
 	text-align: center;
 }
 #watch-list {
-	float: right;
-	margin: 20px;
-	width: 130px;
-	height: 25px;
-	background: #FE5AA0;
-	border: 4px solid #F2EADD;
-	border-radius: 10px;
 	text-align: center;
 	color: #5F6F7B;
-	font-size: 20px;
+	font-size: 23px;
+	text-decoration: underline;
 }
 #icon {
 	display: block;
@@ -82,15 +76,33 @@ section {
 	font-weight: bold;
 }
 #list {
-	display: none;
 	position: relative;
 	top: 5%;
-	left: 15%;
-	width: 70%;
+	left: 5%;
+	width: 60%;
 	height: 70%;
+	display: inline-block;
 	background: #F2EADD;
 	border: 10px solid #5F6F7B;
 	padding: 10px;
 	color: #5F6F7B;
 	font-size: 20px;
+	float: left;
+	display: none;
+}
+#watch {
+	position: relative;
+	top: 5%;
+	width: 22%;
+	height: 70%;
+	display: block;
+	float: right;
+	background: #F2EADD;
+	border: 5px solid #5F6F7B;
+	padding: 10px;
+	color: #5F6F7B;
+	font-size: 20px;
+	display: none;
+	border-right: none;
+	overflow: auto;
 }

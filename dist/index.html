@@ -23,11 +23,23 @@
 				<a href="#results" class="search-button" id="button2">Search</a>
 			</form>
 		</div>
-		<div id="list">
-			<ul></ul>
+		<div id="list"></div>
+		<div id="watch">
+			<div id="watch-list">Watch list</div>
+			<ol id='movie-time'></ol>
 		</div>
+		
 	</section>
-
+	<script type='text/template' id="list-template">
+		<li data-position='<%= pos %>'>
+			Title: <%= Title %>, Year: <%= Year %>, imdbID: <%= imdbID %>, Type: <%= Type %><br>
+		</li>
+	</script>
+	<script type="text/template" id='watch-template'>
+		<li> 
+			<%= Title %>
+		</li>
+	</script>
 	<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
 	<script type="text/javascript" src='bower_components/backbone/backbone-min.js'></script>
 	<script type="text/javascript" src='bower_components/jquery/dist/jquery.min.js'></script>
